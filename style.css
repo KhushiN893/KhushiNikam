@@ -1,6 +1,6 @@
 /*  google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -96,6 +96,8 @@ section .title:hover {
 }
 .navbar .menu li a:hover {
   color: rgb(23, 197, 156);
+  padding-bottom: 2px;
+  border-bottom: 2px solid rgb(23, 197, 156);
 }
 
 /* menu btn styling */
@@ -160,7 +162,7 @@ section .title:hover {
   width: 40%;
 }
 .about .about-content .left img {
-  height: 400px;
+  height: 450px;
   width: 350px;
   object-fit: cover;
   border-radius: 6px;
@@ -190,10 +192,10 @@ section .title:hover {
   background: #15a892;
   align-items: center;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  padding: 10px 30px;
-  margin-top: 15px;
+  padding: 9px 28px;
+  margin-top: 13px;
   border-radius: 11px;
   border: 2px solid #1acaaa;
   transition: all 0.3s ease;
@@ -514,6 +516,7 @@ footer .menu {
   position: relative;
   display: flex;
   margin: 10px 0px;
+  padding-top: 2px;
   flex-wrap: wrap;
 }
 .social_icon li,
@@ -726,6 +729,17 @@ footer .menu {
   font-weight: 300;
   margin-left: 3px;
   font-size: 10px;
+}
+.background-css2 {
+  background-color: #aef5eeb4;
+  color: #006157;
+  padding: 2px;
+  border-radius: 2px;
+  margin-top: 15px;
+  font-weight: bold;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 11px;
 }
 .tooltip {
   position: relative;
